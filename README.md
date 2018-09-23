@@ -17,10 +17,12 @@ Download pdf, jpg or svg. Need to think. Ideally would be great to have proper p
 
 - Grid CSS
 - JavaScript / ES6
-- GitHub API v4 (GraphQL)
+- GitHub API v4 (GraphQL - https://developer.github.com/v4/)
 - NodeJS / npm
 
 # Examples
 - "Apps built on Electron" on https://electronjs.org/
 - "Investing in UX design delivers result" as quad grid items (no round corners) https://www.everyinteraction.com/
 - Maybe time-based expertize like here https://behind-the-code.herokuapp.com/
+- https://www.uprinting.com/print-templates/adobe-photoshop/brochures/
+- https://www.youtube.com/watch?v=5ZL5mKKkHZY

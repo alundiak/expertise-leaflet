@@ -1,7 +1,55 @@
 [{
-    "owner": "git",
-    "name": "git"
+    "owner": "twbs",
+    "name": "bootstrap"
+}, {
+    "owner": "jashkenas",
+    "name": "backbone"
+}, {
+    "owner": "jashkenas",
+    "name": "underscore"
+}, {
+    "owner": "marionettejs",
+    "name": "backbone.marionette"
+}, {
+    "owner": "facebook",
+    "name": "react"
+}, {
+    "owner": "facebook",
+    "name": "react-native"
 }, {
     "owner": "jquery",
     "name": "jquery"
+}, {
+    "owner": "angular",
+    "name": "angular"
+}, {
+    "owner": "vuejs",
+    "name": "vue"
+}, {
+    "owner": "gruntjs",
+    "name": "grunt"
+}, {
+    "owner": "d3",
+    "name": "d3"
+}, {
+    "owner": "reduxjs",
+    "name": "redux"
+}, {
+    "owner": "nodejs",
+    "name": "node"
+}, {
+    "owner": "npm",
+    "name": "npm"
+}, {
+    "owner": "Microsoft",
+    "name": "TypeScript"
+}, {
+    "owner": "less",
+    "name": "less.js"
+}, {
+    "owner": "sass",
+    "name": "sass"
+}, {
+    "owner": "facebook",
+    "name": "react"
 }]
