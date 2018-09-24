@@ -5,126 +5,162 @@
       "nameWithOwner": "twbs/bootstrap",
       "owner": {
         "avatarUrl": "https://avatars0.githubusercontent.com/u/2918581?v=4"
-      }
+      },
+      "homepageUrl": "http://getbootstrap.com",
+      "url": "https://github.com/twbs/bootstrap"
     },
     "repo2": {
       "name": "backbone",
       "nameWithOwner": "jashkenas/backbone",
       "owner": {
         "avatarUrl": "https://avatars3.githubusercontent.com/u/4732?v=4"
-      }
+      },
+      "homepageUrl": "http://backbonejs.org",
+      "url": "https://github.com/jashkenas/backbone"
     },
     "repo3": {
       "name": "underscore",
       "nameWithOwner": "jashkenas/underscore",
       "owner": {
         "avatarUrl": "https://avatars3.githubusercontent.com/u/4732?v=4"
-      }
+      },
+      "homepageUrl": "http://underscorejs.org",
+      "url": "https://github.com/jashkenas/underscore"
     },
     "repo4": {
       "name": "backbone.marionette",
       "nameWithOwner": "marionettejs/backbone.marionette",
       "owner": {
         "avatarUrl": "https://avatars1.githubusercontent.com/u/2273169?v=4"
-      }
+      },
+      "homepageUrl": "http://marionettejs.com",
+      "url": "https://github.com/marionettejs/backbone.marionette"
     },
     "repo5": {
       "name": "react",
       "nameWithOwner": "facebook/react",
       "owner": {
         "avatarUrl": "https://avatars3.githubusercontent.com/u/69631?v=4"
-      }
+      },
+      "homepageUrl": "https://reactjs.org",
+      "url": "https://github.com/facebook/react"
     },
     "repo6": {
       "name": "react-native",
       "nameWithOwner": "facebook/react-native",
       "owner": {
         "avatarUrl": "https://avatars3.githubusercontent.com/u/69631?v=4"
-      }
+      },
+      "homepageUrl": "https://facebook.github.io/react-native/",
+      "url": "https://github.com/facebook/react-native"
     },
     "repo7": {
       "name": "jquery",
       "nameWithOwner": "jquery/jquery",
       "owner": {
         "avatarUrl": "https://avatars1.githubusercontent.com/u/70142?v=4"
-      }
+      },
+      "homepageUrl": "https://jquery.com/",
+      "url": "https://github.com/jquery/jquery"
     },
     "repo8": {
       "name": "angular",
       "nameWithOwner": "angular/angular",
       "owner": {
         "avatarUrl": "https://avatars3.githubusercontent.com/u/139426?v=4"
-      }
+      },
+      "homepageUrl": "https://angular.io",
+      "url": "https://github.com/angular/angular"
     },
     "repo9": {
       "name": "vue",
       "nameWithOwner": "vuejs/vue",
       "owner": {
         "avatarUrl": "https://avatars1.githubusercontent.com/u/6128107?v=4"
-      }
+      },
+      "homepageUrl": "http://vuejs.org",
+      "url": "https://github.com/vuejs/vue"
     },
     "repo10": {
       "name": "grunt",
       "nameWithOwner": "gruntjs/grunt",
       "owner": {
         "avatarUrl": "https://avatars1.githubusercontent.com/u/1630826?v=4"
-      }
+      },
+      "homepageUrl": "http://gruntjs.com/",
+      "url": "https://github.com/gruntjs/grunt"
     },
     "repo11": {
       "name": "d3",
       "nameWithOwner": "d3/d3",
       "owner": {
         "avatarUrl": "https://avatars1.githubusercontent.com/u/1562726?v=4"
-      }
+      },
+      "homepageUrl": "https://d3js.org",
+      "url": "https://github.com/d3/d3"
     },
     "repo12": {
       "name": "redux",
       "nameWithOwner": "reduxjs/redux",
       "owner": {
         "avatarUrl": "https://avatars3.githubusercontent.com/u/13142323?v=4"
-      }
+      },
+      "homepageUrl": "http://redux.js.org",
+      "url": "https://github.com/reduxjs/redux"
     },
     "repo13": {
       "name": "node",
       "nameWithOwner": "nodejs/node",
       "owner": {
         "avatarUrl": "https://avatars3.githubusercontent.com/u/9950313?v=4"
-      }
+      },
+      "homepageUrl": "https://nodejs.org",
+      "url": "https://github.com/nodejs/node"
     },
     "repo14": {
       "name": "npm",
       "nameWithOwner": "npm/npm",
       "owner": {
         "avatarUrl": "https://avatars1.githubusercontent.com/u/6078720?v=4"
-      }
+      },
+      "homepageUrl": "http://npm.community/",
+      "url": "https://github.com/npm/npm"
     },
     "repo15": {
       "name": "TypeScript",
       "nameWithOwner": "Microsoft/TypeScript",
       "owner": {
         "avatarUrl": "https://avatars2.githubusercontent.com/u/6154722?v=4"
-      }
+      },
+      "homepageUrl": "http://www.typescriptlang.org",
+      "url": "https://github.com/Microsoft/TypeScript"
     },
     "repo16": {
       "name": "less.js",
       "nameWithOwner": "less/less.js",
       "owner": {
         "avatarUrl": "https://avatars1.githubusercontent.com/u/3538330?v=4"
-      }
+      },
+      "homepageUrl": "http://lesscss.org",
+      "url": "https://github.com/less/less.js"
     },
     "repo17": {
       "name": "sass",
       "nameWithOwner": "sass/sass",
       "owner": {
         "avatarUrl": "https://avatars1.githubusercontent.com/u/317889?v=4"
-      }
+      },
+      "homepageUrl": "http://sass-lang.com",
+      "url": "https://github.com/sass/sass"
     },
     "repo18": {
       "name": "react",
       "nameWithOwner": "facebook/react",
       "owner": {
         "avatarUrl": "https://avatars3.githubusercontent.com/u/69631?v=4"
-      }
+      },
+      "homepageUrl": "https://reactjs.org",
+      "url": "https://github.com/facebook/react"
     }
   }
 }

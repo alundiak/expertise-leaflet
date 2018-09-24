@@ -14,6 +14,8 @@ function createRepositoriesQueryBody(myData) {
             owner {
                 avatarUrl
             }
+            homepageUrl
+            url
         }
     `;
 

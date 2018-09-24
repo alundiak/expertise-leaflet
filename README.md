@@ -24,6 +24,12 @@ Download pdf, jpg or svg. Need to think. Ideally would be great to have proper p
 - NodeJS / npm
 - HTTP/2 (ExpressJS 4)
 
+Note: generate certificate:
+
+```
+openssl req -x509 -newkey rsa:2048 -nodes -sha256 -subj '/CN=localhost' -keyout localhost-privkey.pem -out localhost-cert.pem
+```
+
 # Examples
 - "Apps built on Electron" on https://electronjs.org/
 - "Investing in UX design delivers result" as quad grid items (no round corners) https://www.everyinteraction.com/
