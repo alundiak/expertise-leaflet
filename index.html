@@ -1,20 +1,72 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <title>Leaflet</title>
-  <link rel="stylesheet" type="text/css" href="css/index.css">
+    <title>Leaflet</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
 </head>
+
 <body>
-  <p>TODO</p>
-
-  <template id="t1"></template>
-  <template id="t2"></template>
-
-  <div class="leaflet">
+    <template id="listItemTemplate">
+        <style>
+          p {} /* Web Components will encapsulate it's styling*/
+        </style>
+        <li>
+            <h2></h2>
+            <div class="body">
+                <p></p>
+                <img src="">
+            </div>
+            <div class="cta">tbd</div>
+        </li>
+    </template>
     
-  </div>
+    <template id="listTemplate">
+      <ul class="listing"></ul>
+    </template>
 
-
-  <script type="module" src="./js/index.js"></script>
+    <div class="leaflet">
+        <div id="myId" class="hello"></div>
+    </div>
+    <ul class="listing">
+        <expertize-item></expertize-item>
+        <li>
+            <h2>React</h2>
+            <div class="body">
+                <p></p>
+                <img src="https://avatars1.githubusercontent.com/u/2273169?v=4">
+            </div>
+            <div class="cta"><a href="">Call to action!</a></div>
+        </li>
+        <li>
+            <h2>Angular</h2>
+            <div class="body">
+                <p></p>
+            </div>
+            <div class="cta"><a href="">Call to action!</a></div>
+        </li>
+        <li class="wide">
+            <h2>Item Three</h2>
+            <div class="body">
+            </div>
+            <div class="cta"><a href="">Call to action!</a></div>
+        </li>
+        <li>
+            <h2>Item Four</h2>
+            <div class="body">
+                <p>The content of this listing item goes here.</p>
+            </div>
+            <div class="cta"><a href="">Call to action!</a></div>
+        </li>
+        <li>
+            <h2>Item Five</h2>
+            <div class="body">
+                <p>The content of this listing item goes here.</p>
+            </div>
+            <div class="cta"><a href="">Call to action!</a></div>
+        </li>
+    </ul>
+    <script type="module" src="./js/index.js"></script>
 </body>
+
 </html>

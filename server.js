@@ -1,11 +1,11 @@
-var express = require('express')
-var path = require('path')
-var app = express()
-var cors = require('cors')
-var dotenv = require('dotenv').config() // for usage env file as extension to process.env variables
-var ClientOAuth2 = require('client-oauth2')
+const express = require('express')
+const path = require('path')
+const app = express()
+const cors = require('cors')
+const dotenv = require('dotenv').config() // for usage env file as extension to process.env variables
+const ClientOAuth2 = require('client-oauth2')
 
-var githubAuth = new ClientOAuth2({
+const githubAuth = new ClientOAuth2({
     clientId: process.env.CLIENT_ID,
     clientSecret: process.env.CLIENT_SECRET,
     accessTokenUri: 'https://github.com/login/oauth/access_token',

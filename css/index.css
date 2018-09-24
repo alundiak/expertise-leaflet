@@ -3,6 +3,11 @@ Use Grid CSS or FlexBox
 https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Realizing_common_layouts_using_CSS_Grid_Layout
 https://css-tricks.com/snippets/css/complete-guide-grid/
 https://www.creativebloq.com/how-to/create-a-responsive-layout-with-css-grid
+https://medium.com/deemaze-software/css-grid-responsive-layouts-and-components-eee1badd5a2f
+https://medium.com/samsung-internet-dev/common-responsive-layouts-with-css-grid-and-some-without-245a862f48df
+https://www.creativebloq.com/how-to/create-a-responsive-layout-with-css-grid
+https://www.creativebloq.com/how-to/fashion-flexible-layouts-with-css-grid
+https://www.creativebloq.com/features/css-grid-layout-secrets-revealed
 
 https://codepen.io/mozilladevelopers/pen/veXQmp
 https://codepen.io/landike/pen/mGgzba
@@ -10,6 +15,57 @@ https://codepen.io/landike/pen/mGgzba
 http://blog.maxrudberg.com/post/38314637011/ios-icon-template
 */
 
-.leaflet {
-  
+.leaflet {}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+body {
+  font: 1.2em Helvetica, arial, sans-serif;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #f08c00;
+}
+
+h2 {
+  background-color: #f08c00;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+.listing {
+  list-style: none;
+  margin: 2em;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.listing li {
+  border: 1px solid #ffe066;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.listing .cta {
+  margin-top: auto;
+  border-top: 1px solid #ffe066;
+  padding: 10px;
+  text-align: center;
+}
+
+.listing .body {
+  padding: 10px;
 }
