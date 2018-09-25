@@ -1,13 +1,14 @@
-frontned-expertize-leaflet
+expertise-leaflet
 ===
-Frontend Expertize Leaflet as CSS Grid using GitHub API
+Web Component "Expertise Leaflet" styled with CSS Grid and fetched with data from GitHub via GraphQL API.
 
+![logo](/img/expertises_cut.png)
 
 # Idea
 
-Take a list of frontend libraries, frameworks, tools from GitHub API using GraphQL and show on page in iOS-apps-screen-like way.
+Take a list of libraries, frameworks, tools from GitHub API using GraphQL and show on page in iOS-apps-screen-like way.
 
-List represent company expertize in frontend development.
+List represent company expertize in person/company development.
 
 Also section about "wannabe".
 
@@ -17,9 +18,10 @@ Download pdf, jpg or svg. Need to think. Ideally would be great to have proper p
 
 # Tech Stack
 
-- Grid CSS
-- JavaScript / ES6
+- CSS Grid
+- CSS Variables
 - Custom Web Components
+- JavaScript / ES6
 - GitHub API v4 (GraphQL - https://developer.github.com/v4/)
 - NodeJS / npm
 - HTTP/2 (ExpressJS 4)

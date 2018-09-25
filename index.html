@@ -4,10 +4,13 @@
 <head>
     <title>Leaflet</title>
     <link rel="stylesheet" type="text/css" href="css/index.css">
+    <!-- OR -->
+    <!-- <script defer src="./js/components.js"></script> -->
+    <!-- OR -->
 </head>
 
 <body>
-    <h1>WORK IN PROGRESS</h1>
+    <h1>Expertise Leaflet</h1>
     <template id="listItemTemplate">
         <style>
           p {} /* Web Components will encapsulate it's styling*/
@@ -26,49 +29,12 @@
       <ul class="listing"></ul>
     </template>
 
-    <ul class="listing">
-        <!-- <expertize-item></expertize-item> -->
-        <li>
-            <h2>React</h2>
-            <div class="body">
-                <p></p>
-                <img src="https://avatars1.githubusercontent.com/u/2273169?v=4">
-            </div>
-            <div class="cta"><a href="">3 projects</a></div>
-        </li>
-        <li>
-            <h2>Angular</h2>
-            <div class="body">
-                <p></p>
-                <img src="https://avatars3.githubusercontent.com/u/139426?v=4">
-            </div>
-            <div class="cta"><a href="">5 projects</a></div>
-        </li>
-        <li class="wide">
-            <h2>jQuery</h2>
-            <div class="body">
-              <p></p>
-              <img src="https://avatars1.githubusercontent.com/u/70142?v=4">
-            </div>
-            <div class="cta"><a href="">20+ projects</a></div>
-        </li>
-        <li>
-            <h2>1 project</h2>
-            <div class="body">
-                <p></p>
-                <img src="https://avatars1.githubusercontent.com/u/6128107?v=4">
-            </div>
-            <div class="cta"><a href="https://avatars1.githubusercontent.com/u/6128107?v=4">VueJS</a></div>
-        </li>
-        <li>
-            <!-- <h2>NodeJS</h2> -->
-            <div class="body">
-                <p></p>
-                <img src="https://avatars3.githubusercontent.com/u/69631?v=4">
-            </div>
-            <div class="cta"><a href="">1 project</a></div>
-        </li>
-    </ul>
+    <expertises-leaflet title="My Expertise" abc="hello"/>
+
+    <!-- OR -->
+    <script src="./js/components.js"></script>
+    <!-- OR -->
+
     <script type="module" src="./js/index.js"></script>
 </body>
 

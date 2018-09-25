@@ -1,5 +1,5 @@
 {
-  "name": "frontend-expertize-leaflet",
+  "name": "expertise-leaflet",
   "version": "1.0.0",
   "description": "Frontend Expertize Leaflet as CSS Grid using GitHub API",
   "main": "index.js",
@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alundiak/frontend-expertize-leaflet.git"
+    "url": "git+https://github.com/alundiak/expertise-leaflet.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/alundiak/frontend-expertize-leaflet/issues"
+    "url": "https://github.com/alundiak/expertise-leaflet/issues"
   },
-  "homepage": "https://github.com/alundiak/frontend-expertize-leaflet#readme",
+  "homepage": "https://github.com/alundiak/expertise-leaflet#readme",
   "devDependencies": {
     "eslint": "^5.6.0"
   },
