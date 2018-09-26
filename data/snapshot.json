@@ -152,15 +152,6 @@
       },
       "homepageUrl": "http://sass-lang.com",
       "url": "https://github.com/sass/sass"
-    },
-    "repo18": {
-      "name": "react",
-      "nameWithOwner": "facebook/react",
-      "owner": {
-        "avatarUrl": "https://avatars3.githubusercontent.com/u/69631?v=4"
-      },
-      "homepageUrl": "https://reactjs.org",
-      "url": "https://github.com/facebook/react"
     }
   }
 }

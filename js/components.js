@@ -9,16 +9,50 @@
   const resultsData = gitHubData.data;
   var parsedData = [];
 
+  const projects = {
+    backbone: 10,
+    marionette: 8,
+    react: 5,
+    'react-native': 1,
+    angular: 3
+  }
+
   for (const field in resultsData) {
     let repo = resultsData[field];
     let name = resultsData[field].name; // TODO: capitalize()
     let owner = repo.nameWithOwner.split('/')[0];
-    let url = repo.owner.avatarUrl;
+    let avatarUrl = repo.owner.avatarUrl;
+    let projectsCount = projects[name];
+
+    if (name === 'backbone.marionette') {
+      name = 'marionette';
+    }
+
+    if (name === 'backbone') {
+      avatarUrl = 'https://humancoders-formations.s3.amazonaws.com/uploads/course/logo/64/thumb_bigger_formation-backbone-js.png';
+    }
+
+    if (name === 'underscore') {
+      avatarUrl = 'https://images-platform.99static.com/WG4uXLVV_iftAlJttXgvXgU6th0=/500x500/top/smart/99designs-contests-attachments/12/12583/attachment_12583422'
+    }
+
+    if (name === 'react') {
+      avatarUrl = 'https://humancoders-formations.s3.amazonaws.com/uploads/course/logo/77/formation-reactjs.png'
+    }
+
+    if (name === 'react-native') {
+      avatarUrl = 'https://www.tablexi.com/wp-content/uploads/2017/12/ReactNative.png'
+    }
+
+
+    if (name === 'react') {
+      avatarUrl = 'https://humancoders-formations.s3.amazonaws.com/uploads/course/logo/77/formation-reactjs.png'
+    }
 
     parsedData.push({
-      name: resultsData[field].name,
-      avatarUrl: repo.owner.avatarUrl,
-      projectsCount: '' // TODO somehow :)
+      name,
+      avatarUrl,
+      projectsCount
     });
   }
 
