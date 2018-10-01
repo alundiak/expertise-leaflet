@@ -36,6 +36,10 @@ function fixUp(name, avatarUrl) {
 
   if (name === 'materialize') {
     avatarUrl = 'http://res.cloudinary.com/colinstodd-com/image/upload/c_fit/n9qdpfw4kwsjqox0lymi.png'
+  }  
+
+  if (name === 'express') {
+    avatarUrl = 'https://banner2.kisspng.com/20180711/yfe/kisspng-express-js-node-js-javascript-mongodb-node-js-5b461d28173fc6.1251392115313216400952.jpg'
   }
 
   return {
