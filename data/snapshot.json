@@ -100,6 +100,15 @@
       "url": "https://github.com/d3/d3"
     },
     "repo12": {
+      "name": "c3",
+      "nameWithOwner": "c3js/c3",
+      "owner": {
+        "avatarUrl": "https://avatars2.githubusercontent.com/u/9966497?v=4"
+      },
+      "homepageUrl": "http://c3js.org",
+      "url": "https://github.com/c3js/c3"
+    },
+    "repo13": {
       "name": "redux",
       "nameWithOwner": "reduxjs/redux",
       "owner": {
@@ -108,7 +117,7 @@
       "homepageUrl": "http://redux.js.org",
       "url": "https://github.com/reduxjs/redux"
     },
-    "repo13": {
+    "repo14": {
       "name": "node",
       "nameWithOwner": "nodejs/node",
       "owner": {
@@ -117,7 +126,7 @@
       "homepageUrl": "https://nodejs.org",
       "url": "https://github.com/nodejs/node"
     },
-    "repo14": {
+    "repo15": {
       "name": "npm",
       "nameWithOwner": "npm/npm",
       "owner": {
@@ -126,7 +135,7 @@
       "homepageUrl": "http://npm.community/",
       "url": "https://github.com/npm/npm"
     },
-    "repo15": {
+    "repo16": {
       "name": "TypeScript",
       "nameWithOwner": "Microsoft/TypeScript",
       "owner": {
@@ -135,7 +144,7 @@
       "homepageUrl": "http://www.typescriptlang.org",
       "url": "https://github.com/Microsoft/TypeScript"
     },
-    "repo16": {
+    "repo17": {
       "name": "less.js",
       "nameWithOwner": "less/less.js",
       "owner": {
@@ -144,7 +153,7 @@
       "homepageUrl": "http://lesscss.org",
       "url": "https://github.com/less/less.js"
     },
-    "repo17": {
+    "repo18": {
       "name": "sass",
       "nameWithOwner": "sass/sass",
       "owner": {
@@ -152,6 +161,150 @@
       },
       "homepageUrl": "http://sass-lang.com",
       "url": "https://github.com/sass/sass"
+    },
+    "repo19": {
+      "name": "electron",
+      "nameWithOwner": "electron/electron",
+      "owner": {
+        "avatarUrl": "https://avatars1.githubusercontent.com/u/13409222?v=4"
+      },
+      "homepageUrl": "https://electronjs.org",
+      "url": "https://github.com/electron/electron"
+    },
+    "repo20": {
+      "name": "jest",
+      "nameWithOwner": "facebook/jest",
+      "owner": {
+        "avatarUrl": "https://avatars3.githubusercontent.com/u/69631?v=4"
+      },
+      "homepageUrl": "https://facebook.github.io/jest/",
+      "url": "https://github.com/facebook/jest"
+    },
+    "repo21": {
+      "name": "mongo",
+      "nameWithOwner": "mongodb/mongo",
+      "owner": {
+        "avatarUrl": "https://avatars1.githubusercontent.com/u/45120?v=4"
+      },
+      "homepageUrl": "https://www.mongodb.com/",
+      "url": "https://github.com/mongodb/mongo"
+    },
+    "repo22": {
+      "name": "karma",
+      "nameWithOwner": "karma-runner/karma",
+      "owner": {
+        "avatarUrl": "https://avatars0.githubusercontent.com/u/3284117?v=4"
+      },
+      "homepageUrl": "http://karma-runner.github.io",
+      "url": "https://github.com/karma-runner/karma"
+    },
+    "repo23": {
+      "name": "jasmine",
+      "nameWithOwner": "jasmine/jasmine",
+      "owner": {
+        "avatarUrl": "https://avatars0.githubusercontent.com/u/4624349?v=4"
+      },
+      "homepageUrl": "http://jasmine.github.io/",
+      "url": "https://github.com/jasmine/jasmine"
+    },
+    "repo24": {
+      "name": "webpack",
+      "nameWithOwner": "webpack/webpack",
+      "owner": {
+        "avatarUrl": "https://avatars2.githubusercontent.com/u/2105791?v=4"
+      },
+      "homepageUrl": "https://webpack.js.org",
+      "url": "https://github.com/webpack/webpack"
+    },
+    "repo25": {
+      "name": "rollup",
+      "nameWithOwner": "rollup/rollup",
+      "owner": {
+        "avatarUrl": "https://avatars2.githubusercontent.com/u/12554859?v=4"
+      },
+      "homepageUrl": "https://rollupjs.org",
+      "url": "https://github.com/rollup/rollup"
+    },
+    "repo26": {
+      "name": "express",
+      "nameWithOwner": "expressjs/express",
+      "owner": {
+        "avatarUrl": "https://avatars2.githubusercontent.com/u/5658226?v=4"
+      },
+      "homepageUrl": "https://expressjs.com",
+      "url": "https://github.com/expressjs/express"
+    },
+    "repo27": {
+      "name": "babel",
+      "nameWithOwner": "babel/babel",
+      "owner": {
+        "avatarUrl": "https://avatars1.githubusercontent.com/u/9637642?v=4"
+      },
+      "homepageUrl": "https://babeljs.io/",
+      "url": "https://github.com/babel/babel"
+    },
+    "repo28": {
+      "name": "phantomjs",
+      "nameWithOwner": "ariya/phantomjs",
+      "owner": {
+        "avatarUrl": "https://avatars1.githubusercontent.com/u/7288?v=4"
+      },
+      "homepageUrl": "http://phantomjs.org",
+      "url": "https://github.com/ariya/phantomjs"
+    },
+    "repo29": {
+      "name": "mocha",
+      "nameWithOwner": "mochajs/mocha",
+      "owner": {
+        "avatarUrl": "https://avatars2.githubusercontent.com/u/8770005?v=4"
+      },
+      "homepageUrl": "https://mochajs.org",
+      "url": "https://github.com/mochajs/mocha"
+    },
+    "repo30": {
+      "name": "chai",
+      "nameWithOwner": "chaijs/chai",
+      "owner": {
+        "avatarUrl": "https://avatars1.githubusercontent.com/u/1515293?v=4"
+      },
+      "homepageUrl": "http://chaijs.com",
+      "url": "https://github.com/chaijs/chai"
+    },
+    "repo31": {
+      "name": "moment",
+      "nameWithOwner": "moment/moment",
+      "owner": {
+        "avatarUrl": "https://avatars1.githubusercontent.com/u/4129662?v=4"
+      },
+      "homepageUrl": "momentjs.com",
+      "url": "https://github.com/moment/moment"
+    },
+    "repo32": {
+      "name": "requirejs",
+      "nameWithOwner": "requirejs/requirejs",
+      "owner": {
+        "avatarUrl": "https://avatars1.githubusercontent.com/u/1781835?v=4"
+      },
+      "homepageUrl": "https://requirejs.org/",
+      "url": "https://github.com/requirejs/requirejs"
+    },
+    "repo33": {
+      "name": "handlebars.js",
+      "nameWithOwner": "wycats/handlebars.js",
+      "owner": {
+        "avatarUrl": "https://avatars0.githubusercontent.com/u/4?v=4"
+      },
+      "homepageUrl": "http://handlebarsjs.com",
+      "url": "https://github.com/wycats/handlebars.js"
+    },
+    "repo34": {
+      "name": "rxjs",
+      "nameWithOwner": "ReactiveX/rxjs",
+      "owner": {
+        "avatarUrl": "https://avatars1.githubusercontent.com/u/6407041?v=4"
+      },
+      "homepageUrl": "http://reactivex.io/rxjs",
+      "url": "https://github.com/ReactiveX/rxjs"
     }
   }
 }

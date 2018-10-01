@@ -9,12 +9,15 @@ a:visited {
   color: var(--gl-orange);
 }
 
-h2 {
+h2,
+h3 {
   background-color: var(--gl-orange);
   color: #fff;
   text-align: center;
   margin: 0;
   padding: 2px;
+  /*border-left-radius: 15px;*/
+  /*border-right-radius: 15px;*/
 }
 
 .listing {
@@ -26,17 +29,28 @@ h2 {
 }
 
 .listing li {
-  border: 1px solid var(--gl-orange);
-  border-radius: 5px;
+  /*border: 1px solid var(--gl-orange);*/
+  /*border-radius: 20px;*/
+  
   display: flex;
   flex-direction: column;
 }
 
-.listing .cta {
+.listing li .body {
+  border: 1px solid var(--gl-orange);
+  border-radius: 20px;
+}
+
+.listing .expertise-name {
   margin-top: auto;
-  border-top: 1px solid var(--gl-orange);
+  /*border-top: 1px solid var(--gl-orange);*/
+  
   padding: 10px;
   text-align: center;
+}
+
+.listing .expertise-name:first-letter {
+  text-transform: capitalize;
 }
 
 .listing .body {

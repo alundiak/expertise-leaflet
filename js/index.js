@@ -51,13 +51,12 @@ async function fetchRealData() {
 
 async function fetchSnapshotData() {
   const reposData = await fetch(snapshotDataJson).then(response => response.json());
-  // console.log(reposData);
+  console.log(reposData);
   return reposData.data;
 }
 
 (async() => {
   'use strict';
-  // const data = await fetchRealData();
-  const data = await fetchSnapshotData();
-  console.log(data);
+  // const data1 = await fetchRealData();
+  // const data2 = await fetchSnapshotData();
 })();

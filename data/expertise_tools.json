@@ -32,6 +32,9 @@
     "owner": "d3",
     "name": "d3"
 }, {
+    "owner": "c3js",
+    "name": "c3"
+}, {
     "owner": "reduxjs",
     "name": "redux"
 }, {
@@ -49,4 +52,52 @@
 }, {
     "owner": "sass",
     "name": "sass"
+}, {
+    "owner": "electron",
+    "name": "electron"
+}, {
+    "owner": "facebook",
+    "name": "jest"
+}, {
+    "owner": "mongodb",
+    "name": "mongo"
+}, {
+    "owner": "karma-runner",
+    "name": "karma"
+}, {
+    "owner": "jasmine",
+    "name": "jasmine"
+}, {
+    "owner": "webpack",
+    "name": "webpack"
+}, {
+    "owner": "rollup",
+    "name": "rollup"
+}, {
+    "owner": "expressjs",
+    "name": "express"
+}, {
+    "owner": "babel",
+    "name": "babel"
+}, {
+    "owner": "ariya",
+    "name": "phantomjs"
+}, {
+    "owner": "mochajs",
+    "name": "mocha"
+}, {
+    "owner": "chaijs",
+    "name": "chai"
+}, {
+    "owner": "moment",
+    "name": "moment"
+}, {
+    "owner": "requirejs",
+    "name": "requirejs"
+}, {
+    "owner": "wycats",
+    "name": "handlebars.js"
+}, {
+    "owner": "ReactiveX",
+    "name": "rxjs"
 }]
