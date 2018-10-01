@@ -28,11 +28,18 @@ http://blog.maxrudberg.com/post/38314637011/ios-icon-template
 
 body {
   font: 1.2em Helvetica, arial, sans-serif;
+  background-color: var(--gl-grey)
+  /*background-color: white;*/
 }
 
 .heading {
-  /*width: 43%;*/
-  /*margin: 0 auto;*/
+  width: 55%;
+  margin: 0 auto;
+  /*color: var(--gl-grey);*/
+}
+
+.heading span {
+  color: var(--gl-orange);
 }
 
 /*https://css-tricks.com/snippets/css/ipad-specific-css/*/
@@ -43,7 +50,7 @@ body {
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
   /* For portrait layouts only */
   .heading {
-    /*width: 63%;*/
+    width: 82%;
   }
 }
 

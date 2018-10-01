@@ -22,6 +22,7 @@ function fixUp(name, avatarUrl) {
   }  
 
   if (name === 'handlebars.js') {
+    name = 'handlebars';
     avatarUrl = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMxH7fJHOirzp24iUFvIUToQvP3fZzzqa61QGNLpGNbaTnOwo9'
   }
 

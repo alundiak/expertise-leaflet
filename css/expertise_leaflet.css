@@ -37,16 +37,18 @@ h3 {
 }
 
 .listing li .body {
-  border: 1px solid var(--gl-orange);
+  /*border: 1px solid var(--gl-orange);*/
   border-radius: 20px;
+  background-color: white;
+  /*background-color: var(--gl-orange)*/
 }
 
 .listing .expertise-name {
   margin-top: auto;
-  /*border-top: 1px solid var(--gl-orange);*/
-  
   padding: 10px;
   text-align: center;
+  font-size: 1.5em;
+  color: var(--gl-orange);
 }
 
 .listing .expertise-name:first-letter {
