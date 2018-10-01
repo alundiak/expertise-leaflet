@@ -14,8 +14,8 @@ https://codepen.io/landike/pen/mGgzba
 
 http://blog.maxrudberg.com/post/38314637011/ios-icon-template
 */
-
 /* So far works only, if main index.css file.*/
+
 :root {
   --gl-orange: #f37138;
   --gl-grey: #ccc;
@@ -24,6 +24,27 @@ http://blog.maxrudberg.com/post/38314637011/ios-icon-template
 
 * {
   box-sizing: border-box;
+}
+
+.loader {
+  /*border: 16px solid var(--gl-grey);*/
+  border: 16px solid white;
+  border-radius: 50%;
+  border-top: 16px solid var(--gl-orange);
+  border-bottom: 16px solid var(--gl-orange);
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 body {
@@ -41,19 +62,20 @@ body {
 .heading span {
   color: var(--gl-orange);
 }
-
 /*https://css-tricks.com/snippets/css/ipad-specific-css/*/
+
 @media only screen and (device-width: 768px) {
   /* For general iPad layouts */
 }
 
-@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: portrait) {
   /* For portrait layouts only */
+  
   .heading {
     width: 82%;
   }
 }
 
-@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: landscape) {
   /* For landscape layouts only */
 }

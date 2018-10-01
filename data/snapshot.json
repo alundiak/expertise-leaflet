@@ -305,6 +305,24 @@
       },
       "homepageUrl": "http://reactivex.io/rxjs",
       "url": "https://github.com/ReactiveX/rxjs"
+    },
+    "repo35": {
+      "name": "materialize",
+      "nameWithOwner": "Dogfalo/materialize",
+      "owner": {
+        "avatarUrl": "https://avatars3.githubusercontent.com/u/2775751?v=4"
+      },
+      "homepageUrl": "https://materializecss.com",
+      "url": "https://github.com/Dogfalo/materialize"
+    },
+    "repo36": {
+      "name": "Semantic-UI",
+      "nameWithOwner": "Semantic-Org/Semantic-UI",
+      "owner": {
+        "avatarUrl": "https://avatars0.githubusercontent.com/u/5796209?v=4"
+      },
+      "homepageUrl": "http://www.semantic-ui.com",
+      "url": "https://github.com/Semantic-Org/Semantic-UI"
     }
   }
 }

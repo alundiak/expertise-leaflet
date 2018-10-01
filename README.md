@@ -25,6 +25,7 @@ Download pdf, jpg or svg. Need to think. Ideally would be great to have proper p
 - GitHub API v4 (GraphQL - https://developer.github.com/v4/)
 - NodeJS / npm
 - HTTP/2 (ExpressJS 4)
+- maybe html2pdf export (https://github.com/eKoopmans/html2pdf) for easy printing
 
 Note: generate certificate:
 
@@ -41,3 +42,7 @@ openssl req -x509 -newkey rsa:2048 -nodes -sha256 -subj '/CN=localhost' -keyout 
 - https://www.uprinting.com/print-templates/adobe-photoshop/brochures/
 - https://www.youtube.com/watch?v=5ZL5mKKkHZY
 - https://webdesign.tutsplus.com/articles/quick-tip-give-your-website-an-ios-home-screen-icon--webdesign-10067
+- https://designmodo.com/ios-app-icon-photoshop/
+- https://ivomynttinen.com/blog/ios-design-guidelines
+- https://developer.apple.com/design/resources/ (with free template download)
+- https://loading.io/css/

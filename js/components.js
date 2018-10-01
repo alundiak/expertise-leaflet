@@ -34,6 +34,10 @@ function fixUp(name, avatarUrl) {
     avatarUrl = 'https://camo.githubusercontent.com/f6414ee20933d5fb8b06dc32ed38c8aa175da559/687474703a2f2f64702e68616e6c6f6e2e696f2f3331337933753244307033382f6a6573742e706e67'
   }
 
+  if (name === 'materialize') {
+    avatarUrl = 'http://res.cloudinary.com/colinstodd-com/image/upload/c_fit/n9qdpfw4kwsjqox0lymi.png'
+  }
+
   return {
     name,
     avatarUrl
@@ -53,7 +57,6 @@ function sortByName(a, b) {
   // names must be equal
   return 0;
 }
-
 
 (async() => {
 

@@ -22,6 +22,7 @@ h3 {
 
 .listing {
   list-style: none;
+  padding-left: 0;
   margin: 2em;
   display: grid;
   grid-gap: 50px;
