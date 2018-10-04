@@ -37,6 +37,7 @@ openssl req -x509 -newkey rsa:2048 -nodes -sha256 -subj '/CN=localhost' -keyout 
 - "Apps built on Electron" on https://electronjs.org/
 - "Investing in UX design delivers result" as quad grid items (no round corners) https://www.everyinteraction.com/
 - Maybe time-based expertize like here https://behind-the-code.herokuapp.com/
+- https://www.facebook.com/groups/omgkrk/permalink/1870598182990156/
 
 # Other
 - https://www.uprinting.com/print-templates/adobe-photoshop/brochures/
