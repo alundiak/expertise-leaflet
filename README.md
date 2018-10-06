@@ -47,3 +47,4 @@ openssl req -x509 -newkey rsa:2048 -nodes -sha256 -subj '/CN=localhost' -keyout 
 - https://ivomynttinen.com/blog/ios-design-guidelines
 - https://developer.apple.com/design/resources/ (with free template download)
 - https://loading.io/css/
+- https://ipadable.com/ipad-dimensions-length-width-height-weight-ipad-models/
