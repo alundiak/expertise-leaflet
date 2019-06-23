@@ -1,9 +1,13 @@
+const debug = require('debug')('http')
+
 const express = require('express')
 const path = require('path')
 const app = express()
 const cors = require('cors')
 const dotenv = require('dotenv').config() // for usage env file as extension to process.env variables
 const ClientOAuth2 = require('client-oauth2')
+
+debug('booting %o', 'APP');
 
 const githubAuth = new ClientOAuth2({
     clientId: process.env.CLIENT_ID,

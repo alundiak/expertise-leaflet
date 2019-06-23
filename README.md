@@ -48,3 +48,6 @@ openssl req -x509 -newkey rsa:2048 -nodes -sha256 -subj '/CN=localhost' -keyout 
 - https://developer.apple.com/design/resources/ (with free template download)
 - https://loading.io/css/
 - https://ipadable.com/ipad-dimensions-length-width-height-weight-ipad-models/
+- https://mdn.github.io/web-components-examples/
+- https://cssgrid.cc/css-grid-guide.html
+- https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Realizing_common_layouts_using_CSS_Grid_Layout

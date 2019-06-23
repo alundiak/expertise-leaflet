@@ -3,21 +3,18 @@
 
 <head>
     <title>Leaflet</title>
-    
+
     <!-- TODO - this cause iPhone to show ONLY one app logo icon -->
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
     <!-- TODO -->
 
     <link rel="stylesheet" type="text/css" href="css/index.css">
-    <!-- OR -->
+    <!-- Variant 1 -->
     <!-- <script defer src="./js/components.js"></script> -->
-    <!-- OR -->
+    <!-- Variant 1 -->
 </head>
 
 <body>
-    <!-- <header>
-      <h1 class="heading">Frontend Alphabet [<span>GlobalLogic</span> Expertise]</h1>
-    </header> -->
     <template id="listItemTemplate">
         <style>
           p {} /* Web Components will encapsulate it's styling*/
@@ -31,18 +28,18 @@
             <div class="cta">tbd</div>
         </li>
     </template>
-    
+
     <template id="listTemplate">
       <ul class="listing"></ul>
     </template>
 
     <!-- <div class="loader"></div> -->
-    
-    <expertises-leaflet _title="My Expertise" abc="hello"/>
 
-    <!-- OR -->
-    <script src="./js/components.js"></script>
-    <!-- OR -->
+    <expertise-leaflet _title="My Expertise" abc="hello"/>
+
+    <!-- Variant 2 -->
+    <!-- <script type="module" src="./js/components.js"></script> -->
+    <!-- Variant 2 -->
 
     <script type="module" src="./js/index.js"></script>
 </body>

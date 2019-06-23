@@ -6,7 +6,7 @@
       "owner": {
         "avatarUrl": "https://avatars0.githubusercontent.com/u/2918581?v=4"
       },
-      "homepageUrl": "http://getbootstrap.com",
+      "homepageUrl": "https://getbootstrap.com",
       "url": "https://github.com/twbs/bootstrap"
     },
     "repo2": {
@@ -99,6 +99,15 @@
       "homepageUrl": "https://d3js.org",
       "url": "https://github.com/d3/d3"
     },
+    "repo12": {
+      "name": "c3",
+      "nameWithOwner": "c3js/c3",
+      "owner": {
+        "avatarUrl": "https://avatars2.githubusercontent.com/u/9966497?v=4"
+      },
+      "homepageUrl": "http://c3js.org",
+      "url": "https://github.com/c3js/c3"
+    },
     "repo13": {
       "name": "redux",
       "nameWithOwner": "reduxjs/redux",
@@ -114,7 +123,7 @@
       "owner": {
         "avatarUrl": "https://avatars3.githubusercontent.com/u/9950313?v=4"
       },
-      "homepageUrl": "https://nodejs.org",
+      "homepageUrl": "https://nodejs.org/",
       "url": "https://github.com/nodejs/node"
     },
     "repo15": {
@@ -128,12 +137,12 @@
     },
     "repo16": {
       "name": "TypeScript",
-      "nameWithOwner": "Microsoft/TypeScript",
+      "nameWithOwner": "microsoft/TypeScript",
       "owner": {
         "avatarUrl": "https://avatars2.githubusercontent.com/u/6154722?v=4"
       },
-      "homepageUrl": "http://www.typescriptlang.org",
-      "url": "https://github.com/Microsoft/TypeScript"
+      "homepageUrl": "https://www.typescriptlang.org",
+      "url": "https://github.com/microsoft/TypeScript"
     },
     "repo17": {
       "name": "less.js",
@@ -150,7 +159,7 @@
       "owner": {
         "avatarUrl": "https://avatars1.githubusercontent.com/u/317889?v=4"
       },
-      "homepageUrl": "http://sass-lang.com",
+      "homepageUrl": "https://sass-lang.com",
       "url": "https://github.com/sass/sass"
     },
     "repo19": {
@@ -168,7 +177,7 @@
       "owner": {
         "avatarUrl": "https://avatars3.githubusercontent.com/u/69631?v=4"
       },
-      "homepageUrl": "https://facebook.github.io/jest/",
+      "homepageUrl": "https://jestjs.io",
       "url": "https://github.com/facebook/jest"
     },
     "repo21": {
@@ -252,6 +261,15 @@
       "homepageUrl": "https://mochajs.org",
       "url": "https://github.com/mochajs/mocha"
     },
+    "repo30": {
+      "name": "chai",
+      "nameWithOwner": "chaijs/chai",
+      "owner": {
+        "avatarUrl": "https://avatars1.githubusercontent.com/u/1515293?v=4"
+      },
+      "homepageUrl": "http://chaijs.com",
+      "url": "https://github.com/chaijs/chai"
+    },
     "repo31": {
       "name": "moment",
       "nameWithOwner": "moment/moment",
@@ -285,8 +303,26 @@
       "owner": {
         "avatarUrl": "https://avatars1.githubusercontent.com/u/6407041?v=4"
       },
-      "homepageUrl": "http://reactivex.io/rxjs",
+      "homepageUrl": "https://rxjs.dev",
       "url": "https://github.com/ReactiveX/rxjs"
+    },
+    "repo35": {
+      "name": "materialize",
+      "nameWithOwner": "Dogfalo/materialize",
+      "owner": {
+        "avatarUrl": "https://avatars3.githubusercontent.com/u/2775751?v=4"
+      },
+      "homepageUrl": "https://materializecss.com",
+      "url": "https://github.com/Dogfalo/materialize"
+    },
+    "repo36": {
+      "name": "Semantic-UI",
+      "nameWithOwner": "Semantic-Org/Semantic-UI",
+      "owner": {
+        "avatarUrl": "https://avatars0.githubusercontent.com/u/5796209?v=4"
+      },
+      "homepageUrl": "http://www.semantic-ui.com",
+      "url": "https://github.com/Semantic-Org/Semantic-UI"
     }
   }
 }
