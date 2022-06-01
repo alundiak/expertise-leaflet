@@ -1,5 +1,5 @@
 {
-  "name": "expertise-leaflet",
+  "name": "@lundiak/expertise-leaflet",
   "version": "1.0.0",
   "description": "Frontend Expertise Leaflet as CSS Grid using GitHub API",
   "main": "index.js",
