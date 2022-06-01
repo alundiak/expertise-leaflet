@@ -20,7 +20,7 @@ Download pdf, jpg or svg. Need to think. Ideally would be great to have proper p
 
 - CSS Grid
 - CSS Variables
-- Custom Web Components
+- Custom Web Components (extends `HTMLElement`)
 - JavaScript / ES6
 - GitHub API v4 (GraphQL - https://developer.github.com/v4/)
 - NodeJS / npm
@@ -29,7 +29,7 @@ Download pdf, jpg or svg. Need to think. Ideally would be great to have proper p
 
 Note: generate certificate:
 
-```
+```bash
 openssl req -x509 -newkey rsa:2048 -nodes -sha256 -subj '/CN=localhost' -keyout localhost-privkey.pem -out localhost-cert.pem
 ```
 
